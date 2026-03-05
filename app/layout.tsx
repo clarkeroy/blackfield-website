@@ -13,10 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Blackfield — Design and Technology Consulting",
-  description: "Premier design and technology consulting for organizations that value craft.",
+  title: "Blackfield — Design and Technology Services",
+  description: "Premier design and technology services for people with high standards",
   icons: {
     icon: "/icon.svg",
+  },
+  openGraph: {
+    title: "Blackfield — Design and Technology Services",
+    description: "Premier design and technology services for people with high standards",
   },
 };
 
