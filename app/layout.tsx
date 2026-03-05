@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Blackfield",
-  description: "A Next.js application built with CSS modules",
+  title: "Blackfield — Design and Technology Consulting",
+  description: "Premier design and technology consulting for organizations that value craft.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
