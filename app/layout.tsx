@@ -20,7 +20,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Blackfield — Design and Technology Services",
-    description: "Premier design and technology services for people with high standards",
+    description: "Premier design and technology services for companies with high standards",
+    images: ["/og-image-blackfield.png"],
   },
 };
 

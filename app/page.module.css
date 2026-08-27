@@ -26,9 +26,14 @@
   border-bottom: 1px solid transparent;
 }
 
-.logo {
+.logoWrap {
+  color: var(--text-primary);
+}
+
+.logoWrap .logo {
   height: auto;
   width: 120px;
+  display: block;
 }
 
 .main {
@@ -92,8 +97,8 @@
 .service h2 {
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 16px;
-  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+  letter-spacing: -0.024em;
 }
 
 .service p {
